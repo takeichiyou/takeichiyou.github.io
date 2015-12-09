@@ -1,0 +1,50 @@
+#fadearea {
+width: 380px;
+height: 200px;
+margin-bottom: 10px;
+}
+#my_prev,
+#my_next {
+float: left;
+width: 40px;
+height: 110px;
+background: #FF3B72;
+cursor: pointer;
+text-align: center;
+padding-top: 90px;
+}
+#icolist {
+float: left;
+position: relative;
+width: 200px;
+height: 200px;
+background: #f5f7ec;
+}
+#icolist li {
+position: absolute;
+top: 0;
+left: 0;
+width: 200px;
+height: 200px;
+text-align: center;
+display: none;
+list-style: none;
+}
+#icolist li#i1 {
+display: block;
+}
+#nav span {
+float: left;
+width: 15px;
+height: 15px;
+background: url(../img/icooff.jpg) no-repeat left top;
+display: block;
+}
+#nav span.selected {
+width: 15px;
+height: 15px;
+background: url(../img/icoon.jpg) no-repeat left top;
+display: block;
+}
+
+#nav.ver2 span { cursor: pointer;}
